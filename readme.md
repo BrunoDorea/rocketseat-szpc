@@ -2,9 +2,9 @@
   Jornada do Zero à Primeira Vaga | Rocketseat
 </h1>
 
-<p align="center">
+<h2 align="center">
   <img src="./assets/logo.svg" width="250px">
-</p>
+</h2>
 
 <p align="center">
   <a href="#-projeto">🖥️ Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
