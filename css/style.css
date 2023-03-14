@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-image: url(../desafio-01/assets/bg-image.png);
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-position: top right;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+
+  position: absolute;
+  width: 714px;
+  height: 331px;
+  left: calc(50% - 714px/2);
+  top: 160px;
+}
+
+main h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+
+main h3 strong {
+  color: #FFC700;
+}
+
+main h1 {
+  font-family: 'Emilys Candy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  
+  color: #FFC700;
+  
+}
+
+main p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+}
